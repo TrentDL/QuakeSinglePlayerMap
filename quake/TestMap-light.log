@@ -2,6 +2,7 @@
 LoadBSPFile: 'TestMap.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
+img::ConvertTextures: WARNING: invalid size data for 
 Loading extended texinfo flags from TestMap.texinfo.json...
 Loading extended content flags from TestMap.content.json...
 WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
@@ -54,14 +55,14 @@ WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
 WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
 WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
 WARNING: worldspawn key light has invalid value of "w"
-24 entities read, 11 are lights.
+25 entities read, 11 are lights.
 
 --- Options Summary ---
 
 Embree_TraceInit: Embree version: 4.4.0
 Embree_TraceInit: 
 	255 sky faces
-	3671 solid faces
+	3681 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 11 initial lights
@@ -72,13 +73,13 @@ Final count: 11 lights, 0 suns in use.
 0 surface light points in use.
 map uses color: true
 Colored light entities/settings detected: .lit output enabled.
-lightmap size (total): 489136
+lightmap size (total): 490832
 Lighting Completed.
 
 Writing TestMap.lit
 0 switchable light styles (32 max)
 Writing TestMap.bsp as Quake BSP bsp29
-0.191s seconds elapsed
+0.166s seconds elapsed
 0 empty lightmaps
 
 

@@ -837,6 +837,21 @@
 	[],
 	[],
 	[],
+	[
+		"WATER",
+		"TRANSLUCENT",
+		"DETAIL"
+	],
+	[],
+	[],
+	[],
+	[
+		"WATER",
+		"TRANSLUCENT",
+		"DETAIL"
+	],
+	[],
+	[],
 	[],
 	[],
 	[],
@@ -1412,6 +1427,18 @@
 	[
 		"SKY"
 	],
+	[],
+	[],
+	[],
+	[
+		"WINDOW",
+		"MIRROR_INSIDE_SET",
+		"TRANSLUCENT",
+		"DETAIL"
+	],
+	[],
+	[],
+	[],
 	[],
 	[],
 	[],

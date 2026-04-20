@@ -59,96 +59,107 @@ WARNING: TestMap-compile.map[line 4]: Unrecognised string escape - \p
 WARNING: TestMap-compile.map[line 94]: brush has multiple face contents (SKY vs SOLID), the former will be used.
 WARNING: TestMap-compile.map[line 664]: brush has multiple face contents (SOLID vs SKY), the former will be used.
 WARNING: TestMap-compile.map[line 704]: brush has multiple face contents (SKY vs SOLID), the former will be used.
-WARNING: TestMap-compile.map[line 1398]: brush has multiple face contents (SKY vs SOLID), the former will be used.
-WARNING: TestMap-compile.map[line 1412]: brush has multiple face contents (SKY vs SOLID), the former will be used.
-WARNING: TestMap-compile.map[line 2090]: brush has multiple face contents (SOLID vs WATER | TRANSLUCENT | DETAIL), the former will be used.
-       36 entities
-       27 unique textures
-      788 texinfos
-    1,650 unique planes
+WARNING: TestMap-compile.map[line 782]: brush has multiple face contents (WATER | TRANSLUCENT | DETAIL vs SOLID), the former will be used.
+WARNING: TestMap-compile.map[line 1422]: brush has multiple face contents (SKY vs SOLID), the former will be used.
+WARNING: TestMap-compile.map[line 1436]: brush has multiple face contents (SKY vs SOLID), the former will be used.
+WARNING: TestMap-compile.map[line 2114]: brush has multiple face contents (SOLID vs WATER | TRANSLUCENT | DETAIL), the former will be used.
+       37 entities
+       30 unique textures
+      799 texinfos
+    1,672 unique planes
 
 INFO: world extents calculated to 8776 units
-      200 brushes
-    1,546 sides
+      202 brushes
+    1,558 sides
     1,016 side bevels
 
             2 texture frames added
+WARNING: unable to find texture __TB_empty
 Processing hull 0...
 WARNING: TestMap-compile.map[line 618]: Healing degenerate edge (2.6617582266050723e-05) at (932.109 96 -3.3e+03)
       1 SOLID | DETAIL brushes
+      1 WATER | TRANSLUCENT | DETAIL brushes
     163 SOLID brushes
       1 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL brushes
      14 SKY brushes
-    179 brushes total
-    1,412 visible sides
-INFO: calculating BSP for 179 brushes with 1412 sides
-      179 brushes
-    1,412 visible faces
-    4,600 nodes
-    3,188 expensive split nodes
+    180 brushes total
+    1,418 visible sides
+INFO: calculating BSP for 180 brushes with 1418 sides
+      180 brushes
+    1,417 visible faces
+        1 non-visible faces
+    4,608 nodes
+        1 non-visible nodes
+    3,196 expensive split nodes
     1,412 mid-split nodes
-    4,601 leaves
-    2,183 EMPTY leafs
+    4,609 leaves
+    2,186 EMPTY leafs
         1 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
+        1 SOLID | WATER leafs
       287 SKY leafs
         1 SOLID | DETAIL leafs
-    2,033 SOLID leafs
+        2 WATER | TRANSLUCENT | DETAIL leafs
+    2,035 SOLID leafs
        96 SOLID | SKY leafs
-    4,601 leafs total
+    4,609 leafs total
     46 max tree height
     20 avg tree height
-    446 tiny portals
-    19,821 tree portals
+    437 tiny portals
+    19,836 tree portals
     230 outside leaves
     0 detail filled leafs
-      179 brushes
-    1,027 visible faces
-      385 non-visible faces
-    2,302 nodes
-      326 non-visible nodes
-    2,302 expensive split nodes
-    2,303 leaves
-    1,017 EMPTY leafs
+      180 brushes
+    1,031 visible faces
+      387 non-visible faces
+    2,311 nodes
+      327 non-visible nodes
+    2,311 expensive split nodes
+    2,312 leaves
+    1,022 EMPTY leafs
         1 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
+        1 SOLID | WATER leafs
       152 SKY leafs
         1 SOLID | DETAIL leafs
-    1,073 SOLID leafs
+        2 WATER | TRANSLUCENT | DETAIL leafs
+    1,074 SOLID leafs
        59 SOLID | SKY leafs
-    2,303 leafs total
+    2,312 leafs total
     57 max tree height
     35 avg tree height
     219 tiny portals
-    10,724 tree portals
+    10,765 tree portals
     69 outside leaves
     0 detail filled leafs
     219 tiny portals
-    10,724 tree portals
+    10,765 tree portals
 WARNING: 3 sides not found (use -verbose to display)
-    5,741 sides visible
-    3,226 makefaces
-    1,075 merged
+    5,771 sides visible
+    3,244 makefaces
+    1,071 merged
     1,339 subdivided
-    555 nodes pruned
+    557 nodes pruned
     132 tiny portals
-    1,101 player-occupiable leaves
+    1,108 player-occupiable leaves
     1,077 clusters of leaves
     3,881 vis portals
         1 SOLID | DETAIL leafs
-      611 SOLID leafs
+        2 WATER | TRANSLUCENT | DETAIL leafs
+      610 SOLID leafs
         1 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
+        1 SOLID | WATER leafs
       152 SKY leafs
-      948 EMPTY leafs
+      953 EMPTY leafs
        35 SOLID | SKY leafs
-    1,748 leafs total
+    1,755 leafs total
     54 max tree height
     33 avg tree height
         8 edges degenerated
-    3,015 edges added by tjunctions
-    2,587 faces optimized through MWT
-    8,279 triangles computed from MWT
-      872 faces created via optimization of MWT triangles
-    8,418 edges
-    3,939 faces
+    3,027 edges added by tjunctions
+    2,603 faces optimized through MWT
+    8,327 triangles computed from MWT
+      878 faces created via optimization of MWT triangles
+    8,474 edges
+    3,965 faces
 Processing hull 1...
 Processing hull 2...
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 884 >= 127)
@@ -156,22 +167,22 @@ Writing TestMap.bsp as Quake BSP bsp29
 Wrote TestMap.bsp
 
 count   lump name    byte size 
-      5 models              320
-   2430 planes            48600
-   4354 vertexes          52248
-   1788 nodes             42912
-    623 texinfos          24920
-   3982 faces             79640
-   6031 clipnodes         48248
-   1147 leafs             32116
-   4639 marksurfaces       9278
-   8499 edges             33996
-  16798 surfedges         67192
-     29 textures         240300
+      6 models              384
+   2445 planes            48900
+   4379 vertexes          52548
+   1801 nodes             43224
+    632 texinfos          25280
+   4014 faces             80280
+   6043 clipnodes         48344
+   1161 leafs             32508
+   4666 marksurfaces       9332
+   8567 edges             34268
+  16926 surfedges         67704
+     32 textures         251272
         lightdata             0
         visdata               0
-        entdata            2825
+        entdata            2910
 
-2.613s seconds elapsed
+2.545s seconds elapsed
 
 
