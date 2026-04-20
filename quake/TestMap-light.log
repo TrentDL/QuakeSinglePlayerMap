@@ -1,0 +1,84 @@
+---- light / ericw-tools 2.0.0-alpha10-30-gf9d0c901 ----
+LoadBSPFile: 'TestMap.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from TestMap.texinfo.json...
+Loading extended content flags from TestMap.content.json...
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \S
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \G
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \e
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \q
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: TestMap.bsp[line 3]: Unrecognised string escape - \p
+WARNING: worldspawn key light has invalid value of "w"
+24 entities read, 11 are lights.
+
+--- Options Summary ---
+
+Embree_TraceInit: Embree version: 4.4.0
+Embree_TraceInit: 
+	255 sky faces
+	3671 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 11 initial lights
+SetupLights: 11 after surface lights
+SetupLights: 11 after jittering
+WARNING: couldn't nudge light out of solid at 598 171 -3584
+Final count: 11 lights, 0 suns in use.
+0 surface light points in use.
+map uses color: true
+Colored light entities/settings detected: .lit output enabled.
+lightmap size (total): 489136
+Lighting Completed.
+
+Writing TestMap.lit
+0 switchable light styles (32 max)
+Writing TestMap.bsp as Quake BSP bsp29
+0.191s seconds elapsed
+0 empty lightmaps
+
+

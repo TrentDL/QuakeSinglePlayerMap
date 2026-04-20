@@ -1,0 +1,23 @@
+---- vis / ericw-tools 2.0.0-alpha10-30-gf9d0c901 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+LoadBSPFile: 'TestMap.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from TestMap.texinfo.json...
+  1101 leafs
+  1077 clusters
+  3881 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 295
+c_noclip: 0
+c_chains: 104123223
+visdatasize:97983  compressed from 151938
+Writing TestMap.bsp as Quake BSP bsp29
+55.16s elapsed
+
+
