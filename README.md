@@ -5,6 +5,8 @@ Not worrying about mulitple players this time.
 The latest release 'PurpleZelda' can be found in [Releases](https://github.com/TrentDL/QuakeSinglePlayerMap/releases/tag/Latest) tab 
 
 # HOW TO PLAY (Ironwail Quake Engine)
+The original quake probably will not run this map properly. It is recommended to use the Ironwail Engine.
+
 1. Buy Quake 1
 
 Buy on steam to get the Pak files that Ironwail needs to run.
